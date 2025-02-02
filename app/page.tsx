@@ -10,7 +10,7 @@ export default function Home() {
   const bottomkeys = ['ENTER', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', 'backspace'];
 
   return (
-    <div className="flex flex-col justify-center h-screen items-center">
+    <div className="flex flex-col justify-center h-screen items-center bg-[#ededfd]">
       {/* The container holding all the boxes */}
       <div className="flex-col space-y-1 ">
         {/* Making 6 columns of 5 rows */}
